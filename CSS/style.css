@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    /* border: 1px solid black; */
+    
+    width: 1024px;
+    display: flex;
+    text-align: left;
+    position: relative;
+    padding: 26px;
+    align-items: center;
+    position:relative;
+}
+
+.card {
+    background-image: url("../pandas.jpg");
+    background-size: cover;
+    background-position: 0px -100px;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+}
+
+.pic {
+    size: 50%;
+    siz
+}
+
+.sideMenu {
+    border: 1px solid rgb(5, 253, 96);
+
+    font-size: 12px;
+    width: 200px;
+    position: absolute;
+    right: 1em;
+    text-align: center;
+}
+
+.container > a {
+    display: block;
+    position: absolute;
+    left: 1em;    
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons > a {
+    border: 1px solid rgb(24, 104, 243);
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 16px;
+    margin: 6px;
+    border-radius: 16px;   
+}
+
+.blueBtn {
+    background-color: rgb(24, 104, 243);
+    color: white;
+    transition: 0.5s;
+}
+
+.blueBtn:hover {
+    background-color: white;
+    color: rgb(24, 104, 243);
+}
+
+.whiteBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 104, 243);
+    transition: 0.5s;
+}
+
+.whiteBtn:hover {
+    background-color: rgb(24, 104, 243);
+    color: white;
+}
+
+.prettyFont {
+    background-color: rgb(24, 104, 243);
+    border-radius: 4px;
+    color: white;
+    font-size: 9px;
+    padding: 3px;
+}
+
+.blueFont {
+    color: rgb(24, 104, 243);
+}
+
+p {
+    margin: 20px 20px 6px 0px;
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 42px;
+}
